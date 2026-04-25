@@ -1,0 +1,186 @@
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: Georgia, "Times New Roman", serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 72ch;
+  padding: 2rem 1.5rem;
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Navigation container */
+nav {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+/* Mobile menu button */
+.menu {
+  background-color: #0f172a;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hidden by default on mobile */
+.nav-links {
+  width: 100%;
+  display: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+/* Mobile links */
+.nav-links a {
+  display: block;
+  text-align: center;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f172a;
+  letter-spacing: 0.05em;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #e2e8f0;
+  text-decoration: none;
+}
+
+/* Toggle menu open */
+:has(.menu[aria-expanded="true"]) .nav-links {
+  display: block;
+}
+
+/* Blog lists */
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+/* Desktop responsive menu */
+@media screen and (min-width: 636px) {
+  .menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+    width: auto;
+    margin: 0;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 0 1rem;
+    text-align: left;
+  }
+}
+
+/* Small screen typography */
+@media screen and (max-width: 635px) {
+  body {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+
+.profile {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  /* margin: 2rem auto; */
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.hero {
+  margin-top: 5rem;
+  padding: 3rem 0;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  max-width: 36ch;
+  color: #334155;
+}
