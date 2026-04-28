@@ -1,21 +1,39 @@
 ---
-import Header from "../components/Header.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-
 import "../styles/global.css";
-
-const pageTitle = "Blog Page";
+const pageTitle = "Blog";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>... and my new Astro site!</h2>
+  <p class="blog-intro">Essays, reflections, and unfinished thoughts.</p>
 
-  <p>
-    I am working through Astro's introductory tutorial. This is the second page
-    on my website, and it's the first one I built myself!
-  </p>
-
-  <ul>
-    <li><a href="/posts/post-1/">Post 1</a></li>
+  <ul class="post-list">
+    <li>
+      <a href="/posts/post-1/">My Birthday</a>
+    </li>
   </ul>
 </BaseLayout>
+<style>
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .post-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #cbd5e1;
+  }
+
+  .post-list a {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    text-decoration: none;
+  }
+
+  .post-list a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+</style>

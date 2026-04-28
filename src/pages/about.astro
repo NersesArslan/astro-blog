@@ -1,57 +1,26 @@
 ---
-import Header from "../components/Header.astro";
-
-import "../styles/global.css";
-const identity = {
-  firstName: "Nerses",
-  country: "USA",
-  occupation: "Gold Assayer",
-  hobbies: [
-    "reading",
-    "philosophy",
-    "literature",
-    "brazilian jiu-jitsu",
-    "hot yoga",
-    " and programming.",
-  ],
-
-  education: "American University of Beirut",
-  degree: {
-    BA: "Political Studies",
-    MA: "Philosophy",
-  },
-};
-
-const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Astro",
-  "academic writing",
-];
-const pageTitle = "About Me";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import profilePic from "./public/ images/profile/me2.jpg";
+
+const pageTitle = "About";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <img src={profilePic.src} class="profile" alt="My grandmother and me" />
-  <p>Here are a few facts about me:</p>
+  <section class="about">
+    <img src={profilePic.src} class="profile" alt="My grandmother and me" />
 
-  <ul>
-    <li>My name is {identity.firstName}.</li>
-    <li>
-      I live in the {identity.country} and I work as a {identity.occupation}.
-    </li>
-    {
-      identity.hobbies.length >= 2 && (
-        <li>Some of my hobbies are: {identity.hobbies.join(", ")}</li>
-      )
-    }
-  </ul>
-  <p>My skills are:</p>
-  <ul>
-    {skills.map((skill) => <li>{skill}</li>)}
-  </ul>
+    <p>
+      Hi there! My name is Nerses. I’m a writer based in Los Angeles with roots
+      in Lebanon. This site is my <i>nth</i> attempt to catalogue my writing in an
+      organized form without losing its sprawling, raw and introspective spirit.
+    </p>
+    <p>
+      I’ve been writing ever since I first fell in love with reading as a kid,
+      trying to imitate the voices of the authors I admired most. This site is
+      less a finished archive than a personal playground: a space to explore the
+      themes that have occupied me since immigrating to the United States—grief,
+      politics, technology, masculinity, loneliness, and the search for meaning
+      in an increasingly atomized world.
+    </p>
+  </section>
 </BaseLayout>
