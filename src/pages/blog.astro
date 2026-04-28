@@ -1,6 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import "../styles/global.css";
+import BlogPost from "../components/BlogPost.astro";
+const allPosts = Object.values(
+  import.meta.glob("./posts/*.md", { eager: true }),
+);
+
 const pageTitle = "Blog";
 ---
 
@@ -8,32 +13,34 @@ const pageTitle = "Blog";
   <p class="blog-intro">Essays, reflections, and unfinished thoughts.</p>
 
   <ul class="post-list">
-    <li>
-      <a href="/posts/post-1/">My Birthday</a>
-    </li>
+    {
+      allPosts.map((post: any) => (
+        <BlogPost url={post.url} title={post.frontmatter.title} />
+      ))
+    }
   </ul>
+  <style>
+    .post-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 2rem;
+    }
+
+    .post-list li {
+      padding: 1rem 0;
+      border-bottom: 1px solid #cbd5e1;
+    }
+
+    .post-list a {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    .post-list a:hover {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+  </style>
 </BaseLayout>
-<style>
-  .post-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 2rem;
-  }
-
-  .post-list li {
-    padding: 1rem 0;
-    border-bottom: 1px solid #cbd5e1;
-  }
-
-  .post-list a {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #0f172a;
-    text-decoration: none;
-  }
-
-  .post-list a:hover {
-    color: #2563eb;
-    text-decoration: underline;
-  }
-</style>

@@ -7,7 +7,18 @@ author: "Nerses Arslanian"
 image:
   url: "https://docs.astro.build/assets/rose.webp"
   alt: "The Astro logo on a dark background with a pink glow."
-tags: ["astro", "blogging", "learning in public"]
+tags:
+  [
+    "Personal Essay",
+    "Los Angeles Journals",
+    "Birthday",
+    "Zen and Practice",
+    "Brazilian Jiu-jitsu",
+    "Work and Identity",
+    "Reading and Life",
+    "Writing",
+    "Literature",
+  ]
 ---
 
 Woke up Friday feeling slightly less sore in my lower-back. Had picked up an injury from my brazilian jiu-jitsu class and it made it difficult for me to move around without some pain or siffness for the past few days.
