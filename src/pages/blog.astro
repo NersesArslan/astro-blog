@@ -10,12 +10,26 @@ const pageTitle = "Blog";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p class="blog-intro">Essays, reflections, and unfinished thoughts.</p>
-
+  <header class="blog-header">
+    <h1>Writing</h1>
+    <p>Essays, reflections, and notes from Los Angeles.</p>
+  </header>
   <ul class="post-list">
     {
       allPosts.map((post: any) => (
-        <BlogPost url={post.url} title={post.frontmatter.title} />
+        <BlogPost
+          url={post.url}
+          title={post.frontmatter.title}
+          pubDate={new Date(post.frontmatter.pubDate).toLocaleDateString(
+            "en-US",
+            {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              timeZone: "UTC",
+            },
+          )}
+        />
       ))
     }
   </ul>
@@ -24,11 +38,6 @@ const pageTitle = "Blog";
       list-style: none;
       padding: 0;
       margin-top: 2rem;
-    }
-
-    .post-list li {
-      padding: 1rem 0;
-      border-bottom: 1px solid #cbd5e1;
     }
 
     .post-list a {
@@ -41,6 +50,15 @@ const pageTitle = "Blog";
     .post-list a:hover {
       color: #2563eb;
       text-decoration: underline;
+    }
+
+    .blog-header {
+      margin: 2rem 0 3rem;
+    }
+
+    .blog-header p {
+      color: #475569;
+      max-width: 50ch;
     }
   </style>
 </BaseLayout>

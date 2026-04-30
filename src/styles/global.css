@@ -8,12 +8,13 @@ html {
   color: #1e293b;
   font-family: Georgia, "Times New Roman", serif;
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 72ch;
+  max-width: 68ch;
   padding: 2rem 1.5rem;
   line-height: 1.75;
   font-size: 1.1rem;
@@ -37,15 +38,18 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+  margin-top: 2rem;
 }
 
 p {
-  font-size: 1.4rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.15rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
 }
 
 /* Links */

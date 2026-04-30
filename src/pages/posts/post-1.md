@@ -4,6 +4,7 @@ title: "My Birthday"
 pubDate: 2026-04-24
 description: "My fifth birthday since moving to Los Angeles."
 author: "Nerses Arslanian"
+excerpt: "A birthday reflection on injury, work, literature, and becoming."
 image:
   url: "https://docs.astro.build/assets/rose.webp"
   alt: "The Astro logo on a dark background with a pink glow."
@@ -21,7 +22,7 @@ tags:
   ]
 ---
 
-Woke up Friday feeling slightly less sore in my lower-back. Had picked up an injury from my brazilian jiu-jitsu class and it made it difficult for me to move around without some pain or siffness for the past few days.
+Woke up Friday feeling slightly less sore in my lower-back. Had picked up an injury from my brazilian jiu-jitsu class and it made it difficult for me to move around without some pain or stiffness for the past few days.
 
 Noticed texts from friends and family members wishing me a happy birthday. Didn't respond to them right away, but I felt glad that I still got these texts every year even though I usually never look forward to my birthday.
 
@@ -47,7 +48,7 @@ Third. The mental noise. The nagging, gnawing sense of dread about this or that 
 
 This, probably stemming from my insecurity and dissastifaction of being stuck in low paid jobs and having to juggle multiple responsibilites, has made it difficult for me to, not only carve out time to, but also cultivate peace of mind and a consistent routine to enjoy the very act of reading.
 
-Which is why I've surprised myself when I picked up a series of dense novels the past few years, some of which I've read when I was younger, some of which I have never read before. Roberto Bolano's _The Savage Detectives_, Thomas Bernhard's _Extinction_, Karl Ove Knausgaard's _My Struggle_, Mikhail Bulgakov's _The Master and Margarita_, Ralph Ellison's _Insivible Man_, and now... that master of multi-lingual puns that will make your head spin, Nabokov's impenetrable yet enchanting, parodic (have you ever read a book that parodies the form of the novel?), too, just too elitist but beatifully tender, wistful and nostalgic _Ada or Ardor_.
+Which is why I've surprised myself when I picked up a series of dense novels the past few years, some of which I've read when I was younger, some of which I have never read before. Roberto Bolano's _The Savage Detectives_, Thomas Bernhard's _Extinction_, Karl Ove Knausgaard's _My Struggle_, Mikhail Bulgakov's _The Master and Margarita_, Ralph Ellison's _Invisible Man_, and now... that master of multi-lingual puns that will make your head spin, Nabokov's impenetrable yet enchanting, parodic (have you ever read a book that parodies the form of the novel?), too, just too elitist but beatifully tender, wistful and nostalgic _Ada or Ardor_.
 
 A recurring thought I was struggling with a lot when I was at the Zen Center is that if I'm smart enough to read these kinds of books, then I ought to be smart enough to learn in demand skills highly sought after in modern labor market to earn enough money to pull myself up from the proverbial bootstraps. After all, one of the reasons I've struggled to rationalize to myself why I wasn't ready to move out of the Zen Center was that I did not earn enough money to pay my bills without going through my savings and inheritance.
 
@@ -65,18 +66,22 @@ Yet I cannot help but feel as though my decision to move out of the Zen Center, 
 
 One cannot grow as a person without discomfort. My place at the Zen Center had become a container for habits, rituals and relationships that allowed me to live in Los Angeles without having to worry too much about my finances. Now that I would have to deal with the reality of the high cost of housing that all Angelenos deal with on a day to day basis, I feel as though I am carrying that same weight with everyone else who worries about it.
 
-That is not to say that those who live and practice Zen are not without their problems. I've met a lot of people in my time at the Zen Center who I was able to have long meaningful conversations about life, stress, uncertainty, relationships and work. How life is dukkha and that no one is exempt from it in all its forms.
+That is not to say that those who live and practice Zen are not without their problems. I've met a lot of people in my time at the Zen Center with whom I had long meaningful conversations about life, stress, uncertainty, relationships and work. How life is dukkha and that no one is exempt from it.
 
 The highlight of my birthday was cleaning my room while slowly recovering from my lower back pain. Or at least noticing that the pain from bending, sitting or standing in certain positions started to slowly subside. It makes me wonder how much injuries I'm going to pick up for as long as I'm practicing brazilian jiu-jitsu. I injured my left thumb a few weeks back as I was rolling with someone and I can still feel something off with the joint at the base of the thumb everytime I press the spacebar on my keyboard.
 
 Hope I can carry on with my jiu-jitsu practice as a kind of substitute to my Zen practice. It's not the same and it has its hazards. But my body and mind need an outlet for all the pent up frustration, loneliness, boredom, anger, resentment and uncertainty that accumulates throughout the days and weeks. What better way to remind yourself that your problems are not as bad as you make them out to be than when you're being choked by a practitioner more skilled than you are? What better way to be grateful for an otherwise physically healthy body than when you're recovering from an infection or an injury picked up from sparring?
 
-And what about literature, philosophy, reading and writing? Will I be able to make a living as a writer of some shape or form, a Lebanese immigrant settling in to Los Angeles at a time when the US is going through major economic and political upheavals while offering his unique perspective of US society?
+And what about literature, philosophy, reading and writing? Will I be able to make a living as a writer—a Lebanese immigrant settling in to Los Angeles at a time when the US is going through major political and economic upheavals while offering his unique perspective of US society?
 
-What I know to be true and what works for me is being true to my voice. I don't really care what I write about. I live a simple and low-key life. I carry the weight of the days as I go to and come back from work and go about my errands. I find beauty and splendor in small places. I don't need much to be happy. But I'm going to start needing to earn more money if I'm going to stay in Los Angeles for the long haul.
+What I know to be true and what works for me is being true to my voice. I don't really care what I write about. I live a simple and low-key life. I carry the weight of the days as I go to and come back from work and go about my errands. I find beauty and the sublime in small places. I don't need much to be happy. But I'm going to start needing to earn more money if I'm going to stay in Los Angeles for the long haul.
 
-I'm either going to start having to put more of a shift at work to show my boss I'm serious about wanting to become a gold assayer like him so that he can finally start teaching me how to melt and do all the other stuff I don't do at work while eventually planning to take up some part time jobs over weekends to supplement my income (but that would mean even less time for reading and writing!). Or, what I really want to happen but am too inconsistent and self-doubting to really stick to, is to find a way to earn a living as a writer without compromising my soul, integrity and voice.
+I'm either going to start putting more of a shift at work and take more initiative so that I can eventually learn everything I need to do to eventually know how to do my bosses work by the time he retires while also taking on part time work to supplement my income.
 
-Can I do this? Can I believe in myself? I'm definitely smart enough. If I can work hard enough to be considered a good and reliable, then what's keeping me from being a great writer well and consistenly enough to earn a living off of it? Nothing. Just my fear of failure and exposure.
+Or... I keep sticking to writing and coding. Keep this job for now, which does not provide me with enough income to pay all my expenses but at least pays me enough to cover most of my expenses, and use my free time to ground myself in my brazilian jiu-jitsu and hot yoga practice while focusing on my writing and programming projects.
 
-Let the adventure begin!
+The latter is is risky and seeing how I'd had to constantly re-prioritizing my attention to different matters at different points in my journey and realizing how much creative and cognitively taxing work needs a baseline level of of stability and security to flourish (can one be a great writer while burdened with a draining day job and day to day financial anxiety?)—it does often feel unlikely that I'd be able to pull it off.
+
+But I don't want to give up.
+
+I just remember the feeling of working at m last job all too well. That feeling when I was staring in front of my computer doing mind numbing work or when I pretended to look busy when I wasn't so I wouldn't be given more work (Because guess what? The reward for being a collaborative and hard worker is more work, not more pay!) while not being able to leave because it wasn't time to leave yet. I kept thinking to myself "this is suicide. I'm literally killing parts of myself everytime I show up to this job. But I can't quit without having another job lined up. And it's not like I can Google 'better job.'"

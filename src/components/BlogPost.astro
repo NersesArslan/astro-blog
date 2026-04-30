@@ -1,25 +1,47 @@
 ---
-const { title, url } = Astro.props;
+const { title, url, pubDate } = Astro.props;
 ---
 
-<li>
-  <a href={url}>{title}</a>
+<li class="post-preview">
+  <a href={url} class="post-link"
+    ><h2>{title}</h2>
+    <p class="post-date">{pubDate}</p></a
+  >
 </li>
+
 <style>
-  li {
-    padding: 1rem 0;
-    border-bottom: 1px solid #cbd5e1;
+  .post-preview {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #edf2f7;
+    transition: transform 0.15s ease;
   }
 
-  a {
-    font-size: 1.25rem;
+  .post-preview a {
+    display: block;
+    font-size: 1.45rem;
     font-weight: 700;
+    line-height: 1.35;
     color: #0f172a;
     text-decoration: none;
+    margin-bottom: 0.35rem;
+    transform: translateY(-1px);
   }
 
-  a:hover {
+  .post-preview a:hover {
     color: #2563eb;
     text-decoration: underline;
+  }
+
+  .post-date {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #64748b;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .post-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
   }
 </style>
