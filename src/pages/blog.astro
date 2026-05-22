@@ -19,7 +19,8 @@ const pageTitle = "Blog";
       allPosts.map((post: any) => (
         <BlogPost
           url={post.url}
-          title={post.frontmatter.title}
+          title={post.frontmatter.title},
+          description={post.frontmatter.description},
           pubDate={new Date(post.frontmatter.pubDate).toLocaleDateString(
             "en-US",
             {
