@@ -4,7 +4,6 @@ title: "My Birthday"
 pubDate: 2026-04-24
 description: "Reflections on aging and the difficulties of allowing oneself to enjoy life while recovering from an injury."
 author: "Nerses Arslanian"
-excerpt: "A birthday reflection on injury, work, literature, and becoming."
 image:
   url: "https://docs.astro.build/assets/rose.webp"
   alt: "The Astro logo on a dark background with a pink glow."
