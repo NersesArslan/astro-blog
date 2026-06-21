@@ -1,0 +1,27 @@
+---
+// ImageCarousel.astro
+interface Props {
+  images: string[];
+}
+const { images } = Astro.props;
+---
+
+<div class="carousel">
+  {images.map((image) => <img src={image} alt="" />)}
+</div>
+
+<style>
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .carousel img {
+    width: 100%;
+    max-width: 800px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
+</style>
